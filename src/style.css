@@ -1,0 +1,91 @@
+@import "reset.css";
+body {
+  font-size: 1.5rem;
+}
+main {
+  min-height: 100vh;
+  margin: 2%;
+}
+
+section {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: #e5eef3;
+  border: 1px black;
+  border-radius: 2rem;
+}
+/* difine general style for input,lable and thier container ,*/
+.typing-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  margin: 2rem 4rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.typing-data input {
+  padding: 1.4rem;
+  margin-top: 0.6rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #fbfafa;
+  color: gray;
+  font-size: 1.5rem;
+}
+.typing-data input:hover {
+  cursor: pointer;
+}
+.typing-data label {
+  color: black;
+  margin-bottom: 0.4rem;
+}
+/*style gender, radio and its lable*/
+
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.user-gender-radio {
+  display: flex;
+  align-items: baseline;
+  background-color: #fbfafa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  width: 40%;
+}
+.user-gender-radio input {
+  margin-bottom: 0;
+}
+
+.user-gender-radio label {
+  color: gray;
+  position: relative;
+  left: 0.5rem;
+}
+/*style terms consnt checkbox*/
+.term-check {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/*style submit*/
+#submit-button {
+  color: white;
+  background-color: #3498db;
+  padding: 2rem 10rem;
+}
+#submit-button:hover {
+  background-color: white;
+  color: #3498db;
+  transition: 200ms ease-in-out;
+}

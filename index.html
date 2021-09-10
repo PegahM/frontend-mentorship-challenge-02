@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign   up Form</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="submit-form" class="container">
+        <form action="">
+          <div class="typing-data">
+            <label for="">FullName</label>
+            <input required type="text" name="" id="" placeholder="Your Name" />
+
+            <label for="">Email Address</label>
+            <input
+              required
+              type="email"
+              name=""
+              id=""
+              placeholder="Email Address"
+            />
+            <label for="">Date Of Birth</label>
+            <input required type="date" placeholder="DD/MM/YYYY" />
+
+            <label for="">Gender</label>
+            <div class="gender">
+              <div class="user-gender-radio">
+                <input
+                  type="radio"
+                  placeholder="Male"
+                  id="male-check"
+                  name="gender-check"
+                  class="gender-radio"
+                />
+
+                <label for="male-check" class="">Male</label>
+              </div>
+              <div class="user-gender-radio">
+                <input
+                  type="radio"
+                  placeholder="Female"
+                  id="female-check"
+                  name="gender-check"
+                  class="gender-radio"
+                />
+                <label for="male-check" class="" placeholder="lala"
+                  >Female
+                </label>
+              </div>
+            </div>
+
+            <div class="term-check">
+              <input required type="checkbox" />
+              <label for="">I Accept Terms And Conditions.</label>
+            </div>
+            <div class="submit">
+              <input
+                id="submit-button"
+                type="Submit"
+                placeholder=""
+                class="submit-form"
+                value="Create Account"
+              />
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
